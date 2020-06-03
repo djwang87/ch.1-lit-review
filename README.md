@@ -1,2 +1,3 @@
 # ch.1-lit-review
-thesis ch. 1: literature review
+The literature review for my PhD.
+To start with an outline first.
