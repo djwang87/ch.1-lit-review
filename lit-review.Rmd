@@ -1,0 +1,31 @@
+---
+title: The movement patterns of free-roaming dogs inhabiting an offshore island of
+  Singapore
+author: "Dajun Wang"
+date: "11/9/2019"
+output:
+  pdf_document:
+    toc: no
+    number_sections: yes
+    fig_caption: yes
+    df_print: kable
+    highlight: tango
+  html_document:
+    toc: no
+    df_print: paged
+fontsize: 11pt
+geometry: margin = 1.2in
+bibliography: ["../zot-library.bib"]
+editor_options:
+  chunk_output_type: console
+spacing: double
+mainfont: Times New Roman
+header-includes:
+- \setlength\parindent{24pt}
+- \usepackage{indentfirst}
+---
+```{r global options, cache=FALSE, include=FALSE}
+set.seed(2807)
+knitr::read_chunk('TAC_outline.Rmd')
+knitr::opts_chunk$set(fig.pos = 'H') #to set all images to top
+```
