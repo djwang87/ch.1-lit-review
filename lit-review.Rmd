@@ -4,18 +4,20 @@ title: The movement patterns of free-roaming dogs inhabiting an offshore island 
 author: "Dajun Wang"
 date: "11/9/2019"
 output:
-  pdf_document:
+  word_document:
     toc: no
-    number_sections: TRUE #auto-number chapters
-    fig_caption: yes
-    df_print: kable
-    highlight: tango
   html_document:
     toc: no
     df_print: paged
+  pdf_document:
+    toc: no
+    number_sections: yes
+    fig_caption: yes
+    df_print: kable
+    highlight: tango
 fontsize: 11pt
 geometry: margin = 1.2in
-bibliography: ["zot-library.bib"]
+bibliography: zot-library.bib
 editor_options:
   chunk_output_type: console
 spacing: double
