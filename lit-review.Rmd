@@ -17,7 +17,7 @@ output:
     highlight: tango
 fontsize: 11pt
 geometry: margin = 1.2in
-bibliography: zot-library.bib
+bibliography: ../../PhD/zot-library.bib
 editor_options:
   chunk_output_type: console
 spacing: double
